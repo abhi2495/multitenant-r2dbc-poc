@@ -1,0 +1,10 @@
+datasource:
+  host: ${mysqlUrl}
+  port: 3306
+  username: ${mysqlUsername}
+  password: ${mysqlPassword}
+  tenants:
+    - tenant1
+    - tenant2
+    - tenant3
+
